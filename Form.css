@@ -1,0 +1,48 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.background-image {
+        background-image: url('./bg-image-glass.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+}
+#header-text {
+    text-align: center;
+    padding-top: 1%;
+    color: rgb(83, 83, 83)
+}
+.box-1 {
+    width: 33%;
+    height: 795px;
+    border: 2px solid rgb(165, 164, 164);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.container {
+    padding-top: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.form-all {
+    color: white;
+}
+.form-label {
+    color: red;
+}
+.msg-box {
+    height: 215px;
+}
+#send-btn {
+    width: 100%;
+    margin-top: 4%;
+}
+p {
+    text-align: center;
+    padding-top: 44%;
+}
